@@ -1,0 +1,29 @@
+.video {
+    -webkit-transform: perspective(705px) rotateY(1deg) rotateX(-60deg);
+            transform: perspective(705px) rotateY(1deg) rotateX(-60deg);
+    width: 60%;
+    margin: 0 auto;
+    border-top-left-radius: 1%;
+    overflow: hidden;
+  }
+
+  .video iframe{
+	border:none;
+}
+
+.seatstyle {
+	float: left;
+    padding: 1px 5px;
+    /* border: 1px solid; */
+    /* border-radius: 5px; */
+    margin: 1px 2px;
+    //background: url(../assets/seat.png);
+    height: 30px;
+    width: 30px;
+    padding: 2px 12px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 10px;
+    color: grey;
+}

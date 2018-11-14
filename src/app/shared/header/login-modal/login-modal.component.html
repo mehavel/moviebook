@@ -1,0 +1,76 @@
+
+      <div class="modal-body login-modal">
+        <!-- <p>Some text in the modal.</p> -->
+        <alert type="danger" *ngIf="authFail">
+          <!--<strong>Oh snap!</strong> Invalid Username or Password <a href="#" class="alert-link">Try Register</a> -->
+          <pre>{{errorMsg}}</pre>
+        </alert>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Login via -->
+            <div class="social-buttons">
+              <a href="#" class="btn btn-fb" (click)="signInWithFB()">
+                <i class="fab fa-facebook"></i> Facebook</a>
+              <a href="#" class="btn btn-goo" (click)="signInWithGoogle()">
+                <i class="fab fa-google"></i> Google </a>
+            </div>
+            <div class="bottom text-center margin15" *ngIf=!swithtoRegister>
+                New here ?
+                <a [routerLink]="" (click)="switchLoginRegister()">
+                  <b>Join Us</b>
+                </a>
+            </div>
+            <div class="bottom text-center margin15" *ngIf=swithtoRegister>
+                Already have an account?
+                <a [routerLink]="" (click)="switchLoginRegister()">
+                  <b>Log In</b>
+                </a>
+            </div>
+            <form class="form" role="form" method="post" accept-charset="UTF-8" id="login-nav"
+                    noValidate [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+<!--               <pre>{{loginForm.value | json}}</pre> -->
+              <div class="form-group" [ngClass]="{
+                    'has-danger': email.invalid && email.dirty,
+                    'has-success': email.valid && email.dirty
+                  }">
+                <label class="sr-only" for="exampleInputEmail2">Email address / Phone Number</label>
+                <input type="email" class="form-control" formControlName="email" id="exampleInputEmail2" placeholder="Email address" required>
+              </div>
+              <div class="form-group">
+                  <div *ngIf="!showPassword" class="form-group has-feedback">
+                      <input type="password" formControlName="password" class="form-control" placeholder="Password">
+                          <span (click)="toggleShowPassword()" style="cursor: pointer; pointer-events: all;">
+                            <i class="far fa-eye"></i>
+                          </span>
+                  </div>
+                  <div *ngIf="showPassword" class="form-group has-feedback">
+                      <input type="text" formControlName="password" class="form-control" placeholder="Password">
+                          <span (click)="toggleShowPassword()" style="cursor: pointer; pointer-events: all;">
+                              <i class="fas fa-eye-slash"></i>
+                          </span>
+                   </div>
+              </div>
+              <div class="form-group">
+                <button type="submit" style="position:relative" class="btn btn-primary btn-block " *ngIf="!swithtoRegister">
+                  Sign in
+                  <span class="buttonloader" *ngIf="callingApi"></span>
+                </button>
+                <button type="submit" class="btn btn-primary btn-block" *ngIf="swithtoRegister">
+                  Sign Up
+                  <span class="buttonloader" *ngIf="callingApi"></span>
+                </button>
+              </div>
+              <div class="help-block text-right" *ngIf=!swithtoRegister>
+                  <a href="">Forget the password ?</a>
+              </div>
+              <!-- <div class="checkbox">
+                <label>
+                  <input type="checkbox"> keep me logged-in
+                </label>
+              </div> -->   
+            </form>
+          </div>
+         
+        </div>
+      </div>
+      

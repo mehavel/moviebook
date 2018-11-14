@@ -1,0 +1,25 @@
+.carouselimg{
+	width:100%;
+	background-size:100% 100%;
+	height:300px;
+}
+
+.carouselimg:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*background-image: ;*/
+	opacity: .6; 
+	background-image:url('../../../assets/classy-fabric.png'),linear-gradient(to bottom right,#002f4b,#dc4225);
+}
+
+.carouselimg img{
+	border-radius:5px;
+	box-shadow:0 5px 35px rgba(0,0,0,.65);
+	/*padding:0px 50px;*/
+	height:300px;
+}
+

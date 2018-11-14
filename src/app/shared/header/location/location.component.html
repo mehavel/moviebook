@@ -1,0 +1,30 @@
+<div class="oe_wrapper" style="display: inline-block" >
+    <div id="location_overlay" class="oe_overlay"   [@heroState] = 'location' *ngIf="location"></div>
+    <ul id="location_menu" class="oe_menu">
+      <li class="" (mouseenter)="showLocation($event)" (mouseleave)="hideLocation($event)">
+        <a class="topmenuitem"  (click)="showLocation()">
+          <span class="topmenutxt" >Location</span>
+          <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <div id="filter" style="z-index: 1;" *ngIf="location" >
+          <p>
+            <span class="input">
+              <input type="text" placeholder="Search for your City">
+              <span></span>
+            </span>
+          </p>
+          <span class="locationholder">
+            <span class="locationimgcontainer">
+              <img src="https://www.shareicon.net/download/2017/01/24/875029_landmark_512x512.png" class="locationimg">
+              <span class="displayblock">Mumbai</span>
+            </span>
+            <span class="locationimgcontainer">
+              <img src="https://cdn.iconscout.com/public/images/icon/premium/png-192/chennai-central-railway-station-heritage-architecture-structure-building-india-3b48abfbaa469e68-192x192.png"
+                class="locationimg">
+              <span class="displayblock">Chennai</span>
+            </span>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>

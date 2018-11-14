@@ -1,0 +1,164 @@
+POST /api/rest/v1/search/movies-and-cinemas-by-location
+
+Request:
+{
+  "header": {
+    "callingAPI": "string",
+    "channel": "string",
+    "transactionId": "string"
+  },
+  "locality_id": "string",
+  "zone_id": "string"
+}
+
+Response:
+{
+  "movies": [
+    {
+      "active": 0,
+      "censorCertificate": "string",
+      "createdTimestamp": "2018-04-10T05:05:42.430Z",
+      "createdUser": "string",
+      "dimension": "string",
+      "downVotes": "string",
+      "duration": "string",
+      "language": "string",
+      "modifiedTimestamp": "2018-04-10T05:05:42.430Z",
+      "modifiedUser": "string",
+      "movieId": 0,
+      "movieName": "string",
+      "overAllRating": "string",
+      "posterUrl": "string",
+      "releaseDate": "2018-04-10T05:05:42.430Z",
+      "synopsis": "string",
+      "trailerUrl": "string",
+      "upVotes": "string"
+    }
+  ],
+  "status": {
+    "status_code": "1001",
+    "status_desc": "Movie and venues details are retrived successfully",
+    "transaction_id": "string"
+  },
+  "venues": [
+    {
+      "active": 0,
+      "additionalFare3d": 0,
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "companyId": "string",
+      "createdTimestamp": "2018-04-10T05:05:42.430Z",
+      "createdUser": "string",
+      "defaultDaysToPublish": "string",
+      "isNew": 0,
+      "landmark": "string",
+      "latitude": 0,
+      "localityId": "string",
+      "longitude": 0,
+      "mTicketAvailable": 0,
+      "modifiedTimestamp": "2018-04-10T05:05:42.430Z",
+      "modifiedUser": "string",
+      "snacksAvailable": 0,
+      "synopsis": "string",
+      "venuCategoryId": "string",
+      "venueId": 0,
+      "venueName": "string"
+    }
+  ]
+}
+
+
+==============================================================================
+
+
+POST /api/rest/v1/search/movie/show/times
+Request:
+{
+  "header": {
+    "callingAPI": "string",
+    "channel": "string",
+    "transactionId": "string"
+  },
+  "locality_id": "string",
+  "movie_id": "string",
+  "zone_id": "string"
+}
+Response:
+{
+  "show_info": [
+    {
+      "certificate": "string",
+      "dimension": "string",
+      "down_votes": "string",
+      "duration": "string",
+      "language": "string",
+      "movie_id": "string",
+      "movie_name": "string",
+      "mticket_available": true,
+      "rating": "string",
+      "release_date": "string",
+      "screen_id": "string",
+      "show_date": "2018-04-10T05:05:42.350Z",
+      "show_id": "string",
+      "show_time": "string",
+      "snacks_available": true,
+      "synopsis": "string",
+      "up_votes": "string",
+      "venue_id": "string",
+      "venue_name": "string",
+      "venue_synopisis": "string"
+    }
+  ],
+  "status": {
+    "status_code": "2001",
+    "status_desc": "Show listing success",
+    "transaction_id": "string"
+  }
+}
+==================================================================================================
+POST /api/rest/v1/search/venue/show/times
+
+Request:
+{
+  "header": {
+    "callingAPI": "string",
+    "channel": "string",
+    "transactionId": "string"
+  },
+  "locality_id": "string",
+  "venue_id": "string",
+  "zone_id": "string"
+}
+
+Response:
+
+  "show_info": [
+    {
+      "certificate": "string",
+      "dimension": "string",
+      "down_votes": "string",
+      "duration": "string",
+      "language": "string",
+      "movie_id": "string",
+      "movie_name": "string",
+      "mticket_available": true,
+      "rating": "string",
+      "release_date": "string",
+      "screen_id": "string",
+      "show_date": "2018-04-10T05:05:42.456Z",
+      "show_id": "string",
+      "show_time": "string",
+      "snacks_available": true,
+      "synopsis": "string",
+      "up_votes": "string",
+      "venue_id": "string",
+      "venue_name": "string",
+      "venue_synopisis": "string"
+    }
+  ],
+  "status": {
+    "status_code": "3001",
+    "status_desc": "Show listing successful",
+    "transaction_id": "string"
+  }
+}

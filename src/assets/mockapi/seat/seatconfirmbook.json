@@ -1,0 +1,35 @@
+{
+  "status": {
+    "status_code": 1005,
+    "status_desc": "Tickets Confirmed",
+    "transaction_id": "string"
+  },
+  "total_seats_booked": 1,
+  "booking_id": "1537902329206",
+  "seat_layout": {
+    "seat_classes": [
+      {
+        "seatId": null,
+        "seats": [
+          {
+            "seat": true,
+            "seat_id": 0,
+            "seat_published_id": 1,
+            "coordinate_x": "string",
+            "coordinate_y": "string",
+            "seat_number": "string",
+            "is_seat": true,
+            "booking_status": "SOLDOUT"
+          }
+        ],
+        "class_published_id": 4,
+        "class_id": 0,
+        "base_fare": 0,
+        "extra_fare": 0,
+        "discount": 0,
+        "fare_id": 0,
+        "fare_details": null
+      }
+    ]
+  }
+}

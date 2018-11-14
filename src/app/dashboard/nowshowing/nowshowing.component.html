@@ -1,0 +1,49 @@
+<sn-scroll-spy-section id="nowshowing">
+
+  <div class="row mainrowmargin"  style="position:relative;top:45px;">
+    <a href="javascript:void(0);"></a>
+    <span class="title">Now Showing
+      <!--<div class="oe_wrapper">
+        <div id="oe_overlay" class="oe_overlay" style="opacity: 0; display: none;"></div>
+         <ul id="oe_menu" class="oe_menu">
+          <li class=""><!--(mouseenter)="showFilter($event)"
+            <a href="">Filter
+              <i class="fa fa-filter" aria-hidden="true"></i>
+            </a> -->
+            <span class="filter" *ngFor="let filter of filters;let i = index;">
+               <span (click)="addToFilters(i)">{{filter.value}}</span>
+            </span>
+            <!-- <span class="filter"> 
+              <span (click)="addToFilters('tamil')">Tamil</span>
+              <span>English</span>
+              <span>Hindi</span>
+              <span>Telugu</span>
+              <span>Malayalam</span>  
+          </span>  --> 
+            <app-filter></app-filter>  
+          <!-- </li> 
+           
+        </ul>   
+      </div>-->
+     
+
+
+    </span>
+    <div class="moviecardcnt" *ngFor="let nowShowingModel of nowShowingModels | decorate:filters:dummy">
+      <div class="moviecard" (click)=navigateToShowTiming()>
+        <div class="rating">{{nowShowingModel.upVotes}}</div> 
+          <img src="http:{{nowShowingModel.posterUrl}}" alt="image">   
+      </div>
+      <div class="moviedetails">
+        <div class="moviename">
+          {{nowShowingModel.movieName}}
+        </div>
+        <div class="moviegenre">
+          <span>{{nowShowingModel.moviegenre}}</span>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <sn-scroll-spy-section>

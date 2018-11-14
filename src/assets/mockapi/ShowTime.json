@@ -1,0 +1,1147 @@
+{
+	"status": {
+		"status_code": "2001",
+		"status_desc": "Show listing success",
+		"transaction_id": "string"
+	},
+	"rowDates": [{
+			"date": 16,
+			"day": "THU"
+		},
+		{
+			"date": 17,
+			"day": "FRI"
+		},
+		{
+			"date": 18,
+			"day": "SAT"
+		},
+		{
+			"date": 19,
+			"day": "SUN"
+		},
+		{
+			"date": 20,
+			"day": "MON"
+		},
+		{
+			"date": 21,
+			"day": "TUE"
+		}
+	],
+	"venues": [{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "showid_1",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "Sathyam Cinemas",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "IMAX Cinemas",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "Luxe Cinemas",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "Prathna",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "PVR Tnagar",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "Mayajal Multitiplex",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "INOX Cinemas",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "AGS Navalur",
+			"venue_synopisis": "string"
+		},
+		{
+			"movies": [{
+				"certificate": "string",
+				"dimension": "string",
+				"down_votes": "string",
+				"duration": "string",
+				"language": "string",
+				"movie_id": "string",
+				"movie_name": "string",
+				"rating": "string",
+				"release_date": "string",
+				"show_dates": [
+					"2018-10-08T19:00:34.112Z"
+				],
+				"shows": [{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "04:30 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "206.94",
+							"name": "FIRST CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "256.94",
+							"name": "ELITE CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 AM"
+
+					},
+					{
+						"classes": [{
+							"fare": "106.94",
+							"name": "SECOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "12:05 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "03:30 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "512.94",
+							"name": "DIAMOND CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "06:15 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "09:00 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "312.94",
+							"name": "GOLD CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "10:45 PM"
+
+					},
+					{
+						"classes": [{
+							"fare": "60.94",
+							"name": "ECONOMY CLASS"
+						}],
+						"screen_id": "string",
+						"show_date": "2018-10-08T19:00:34.112Z",
+						"show_id": "string",
+						"show_time": "11:45 AM"
+
+					}
+				],
+				"synopsis": "string",
+				"up_votes": "string"
+			}],
+			"mticket_available": true,
+			"snacks_available": true,
+			"venue_id": "string",
+			"venue_name": "PVR Cinemas",
+			"venue_synopisis": "string"
+		}
+	]
+}

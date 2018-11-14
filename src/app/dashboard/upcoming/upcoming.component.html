@@ -1,0 +1,22 @@
+<sn-scroll-spy-section id="upcoming">
+  <div class="row mainrowmargin" style="position:relative;top:45px;">
+    <a href="javascript:void(0);"></a>
+    <span class="title">UpComing</span>
+    <div class="moviecardcnt" *ngFor="let upComingModel of upComingModels">
+      <div class="moviecard">
+        <div class="rating">{{upComingModel.rating}}</div>
+        <a href="./summary.html">
+          <img src="http:{{upComingModel.posterUrl}}" alt="image">
+        </a> 
+      </div>
+      <div class="moviedetails">
+        <div class="moviename">
+          {{upComingModel.movieName}}
+        </div>
+        <div class="moviegenre">
+          <span>{{upComingModel.moviegenre}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</sn-scroll-spy-section>

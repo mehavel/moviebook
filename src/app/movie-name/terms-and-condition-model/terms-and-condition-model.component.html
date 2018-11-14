@@ -1,0 +1,22 @@
+<p>
+  terms-and-condition-model works!
+  1. The ticket holder has to show a valid photo ID at the entry gate. Please provide the booking ID QR Code via mobile or printout if you`ve opted for M-Ticketing while booking.
+  <input type="submit" (click)=openModal(template)/> 
+  <ng-template #template>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">PreSeatSelector</h4>
+        <button type="button" data-dismiss="modal" (click)="modalRef.hide()">
+          <i class="far fa-times-circle"></i>
+        </button>
+      </div>
+      <app-pre-seat-seletor-model (event)="hideModal($event)" #child></app-pre-seat-seletor-model>
+<!--   <div class="modal-footer">
+        <button type="button" class="btn btn-default" (click)="modalRef.hide()" data-dismiss="modal">Close</button>
+      </div> -->      
+    </div>
+
+
+
+  </ng-template>
+</p>

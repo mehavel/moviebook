@@ -1,0 +1,33 @@
+{
+  "status": {
+    "status_code": 1002,
+    "status_desc": "SEATING REPRESENTATION DETAILS RETRIEVED",
+    "transaction_id": "string"
+  },
+  "seat_layout": {
+    "seat_classes": [
+      {
+        "seatId": null,
+        "seats": [
+          {
+            "seat": false,
+            "seat_id": 0,
+            "seat_published_id": 1,
+            "coordinate_x": "0",
+            "coordinate_y": "0",
+            "seat_number": "A1",
+            "is_seat": false,
+            "booking_status": "AVAILABLE"
+          }
+        ],
+        "class_published_id": 4,
+        "class_id": 2,
+        "base_fare": 100,
+        "extra_fare": 10,
+        "discount": 10,
+        "fare_id": 0,
+        "fare_details": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+export interface MovieVenues {
+    venueId:String;
+    venueName:String;
+    synopsis:String;
+    active:String;
+    mTicketAvailable:String;
+    snacksAvailable:String;
+    addressLine1:String;
+    addressLine2:String;
+    landmark:String;
+    companyId:String;
+    localityId:String;
+    latitude:String;
+    longitude:String;
+    isNew:String;
+    venuCategoryId:String;
+    defaultDaysToPublish:String;
+    additionalFare3d:String;
+    createdUser:String;
+    createdTimestamp:String;
+    modifiedUser:String; 
+    modifiedTimestamp:String;
+}

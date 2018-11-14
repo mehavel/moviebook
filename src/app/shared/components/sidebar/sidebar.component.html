@@ -1,0 +1,293 @@
+<mat-accordion>
+
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/cards']" [routerLinkActive]="['router-link-active']">
+            {{ 'Now Showing'}}
+            </a>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav">
+                <a [routerLink]="['/cards']" [routerLinkActive]="['router-link-active']">
+                {{ 'UpComing'}}
+                </a>
+         </div>
+    <!-- <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">credit_card</mat-icon>
+                Card
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/cards']" [routerLinkActive]="['router-link-active']">
+        {{ 'Cards'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cards']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/cardemp']" [routerLinkActive]="['router-link-active']">
+        {{ 'Employee Card'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cardemp']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/cardtype']" [routerLinkActive]="['router-link-active']">{{ 'Cardtype'  }}</a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cardtype']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>  -->
+    <!-- <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">credit_card</mat-icon>
+                Card
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/cards']" [routerLinkActive]="['router-link-active']">
+        {{ 'Cards'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cards']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/cardemp']" [routerLinkActive]="['router-link-active']">
+        {{ 'Employee Card'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cardemp']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/cardtype']" [routerLinkActive]="['router-link-active']">{{ 'Cardtype'  }}</a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-cardtype']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">event_seat</mat-icon>
+                Outlet
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/outlet']" [routerLinkActive]="['router-link-active']">
+        {{ 'Outlet'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-outlet']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/outletemp']" [routerLinkActive]="['router-link-active']">
+        {{ 'Outlet Mapping'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-outletemp']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel> -->
+
+    <!-- <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">card_giftcard</mat-icon>
+                Offer
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/offer']" [routerLinkActive]="['router-link-active']">
+        {{ 'Offer'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-offer']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/empoffer']" [routerLinkActive]="['router-link-active']">
+        {{ 'Employee Offer'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-empoffer']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">supervisor_account</mat-icon>
+                Customer
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/customer']" [routerLinkActive]="['router-link-active']">
+        {{ 'Customer'}}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-customer']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+            
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon class="lx_icon">supervisor_account</mat-icon>
+                            Loan
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+            
+                    <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/loanrequest']" [routerLinkActive]="['router-link-active']">
+        {{ 'Loan Request'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-loanrequest']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+            
+                </mat-expansion-panel>
+
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">account_balance</mat-icon>
+                Account
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/accounttypemapping']" [routerLinkActive]="['router-link-active']">
+        {{ 'Account Mapping'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-roletransactiontype']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/account']" [routerLinkActive]="['router-link-active']">
+        {{ 'Account'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-account']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+    <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/approval']" [routerLinkActive]="['router-link-active']">
+            {{ 'Approval'  }}
+        </a>
+    </div>
+
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">card_membership</mat-icon>
+                Membership
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/membershiptype']" [routerLinkActive]="['router-link-active']">
+                {{ 'Membership Type'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-membershiptype']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/membershipaccount']" [routerLinkActive]="['router-link-active']">
+        {{ 'Member Account'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-membershipaccount']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header color="primary">
+            <mat-panel-title>
+                <mat-icon class="lx_icon">attach_money</mat-icon>
+                Transaction
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/accounttype']" [routerLinkActive]="['router-link-active']">
+                    {{ 'Trans Type'  }}
+                </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-transactiontype']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/transaction']" [routerLinkActive]="['router-link-active']">
+            {{ 'Trans'  }}
+        </a>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/stocktransaction']" [routerLinkActive]="['router-link-active']">
+            {{ 'Stock Trans'  }}
+        </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-stocktransaction']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/membershiptrans']" [routerLinkActive]="['router-link-active']">
+        {{ 'Member Trans'  }}
+    </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-membershiptrans']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/transaction']" [routerLinkActive]="['router-link-active']">
+            {{ 'Transaction' }}
+        </a>
+                <mat-icon class="lx_header_icon" [routerLink]="['/add-membershiptrans']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+            </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">account_box</mat-icon>
+                Admin
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/user']" [routerLinkActive]="['router-link-active']">
+            {{ 'User'}}
+        </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-user']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/userprofile']" [routerLinkActive]="['router-link-active']">{{ 'User Profile'  }} </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-userprofile']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/codedescriptor']" [routerLinkActive]="['router-link-active']">{{ 'CodeDescriptor'  }}</a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-codedescriptor']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+        <div mat-list-item class="sidebar_nav lx-nav">
+            <a [routerLink]="['/profile']" [routerLinkActive]="['router-link-active']">{{ 'Profile'  }}</a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-profile']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+
+    </mat-expansion-panel>
+
+
+    <mat-expansion-panel>
+
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <mat-icon class="lx_icon">event_note</mat-icon>
+                Request
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/timesheet']" [routerLinkActive]="['router-link-active']">
+            {{ 'Timesheet'}}
+        </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-timesheet']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/servicerequest']" [routerLinkActive]="['router-link-active']">
+            {{ 'Service Request'  }}
+        </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-servicerequest']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+        <div mat-list-item class="sidebar_nav lx-nav"><a [routerLink]="['/leaverequest']" [routerLinkActive]="['router-link-active']">
+            {{ 'Leave Request'  }}
+        </a>
+            <mat-icon class="lx_header_icon" [routerLink]="['/add-leaverequest']" [routerLinkActive]="['router-link-active']">add</mat-icon>
+        </div>
+       
+    </mat-expansion-panel> -->
+</mat-accordion>
+
+
+
+

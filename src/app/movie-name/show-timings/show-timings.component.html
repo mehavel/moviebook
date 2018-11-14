@@ -1,0 +1,56 @@
+<main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 bgopacity">
+    <div class="row mainrowmargin">
+  
+      <div class="row">
+        <span class="moviedates active">
+           <div>16</div><span>THU</span>     
+        </span>
+        
+            <ng-container *ngFor="let rowDateData of _rowDates | slice:1">
+                <span class="moviedates">
+                <div>{{rowDateData.date}}</div><span class="tooltiptext">{{rowDateData.day}}</span>
+              
+              </span>
+          </ng-container>
+         <input type="submit" (click)=openModal(template)/> 
+        <!-- <input type="submit" (click)="openModal(template)/> -->
+        </div>
+  
+    </div>
+  
+    <div class="row mainrowmargin">
+      <ul class="movietiming">
+        <li *ngFor="let venueData of _venues">
+         
+          <div class="cinema">{{venueData.venue_name}}</div>
+          <ng-container *ngFor="let movieData of venueData.movies">
+              <div class="cinematime">
+                  <span *ngFor="let showData of movieData.shows" class="first">
+                      <!-- <div class="popup" (mouseover)="myFunction()"> -->
+                       <span  (click)=navigateToSeatLayout(venueData.venue_name,showData.show_id)>{{showData.show_time}}</span>
+                        <!-- <span class="popuptext" id="myPopup"><p>206.94<br/>FIRST CLASS<br/>AVAILABLE</p></span>  </div>    -->
+                   </span>
+              </div>
+          </ng-container>
+          <div class="clearb"></div>
+        </li>
+        </ul>
+    </div>
+    <ng-template #template>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">T&C</h4>
+          <button type="button" data-dismiss="modal" (click)="modalRef.hide()">
+            <i class="far fa-times-circle"></i>
+          </button>
+        </div>
+        <app-terms-and-condition-model (event)="hideModal($event)" #child></app-terms-and-condition-model>
+<!--   <div class="modal-footer">
+          <button type="button" class="btn btn-default" (click)="modalRef.hide()" data-dismiss="modal">Close</button>
+        </div> -->      
+      </div>
+
+
+
+    </ng-template>
+  </main>

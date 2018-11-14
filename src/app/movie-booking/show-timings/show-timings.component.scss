@@ -1,0 +1,61 @@
+.bgopacity {
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    padding-top: 25px;
+    max-width: 81%;
+}
+.mainrowmargin {
+    margin: 0 4% !important;
+    position: relative;
+}
+.movietiming {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+.movietiming li {
+    list-style: none;
+    margin: 5px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+    padding: 20px 0px;
+}
+.movietiming li div {
+    display: inline-block;
+}
+.cinema {
+    width: 25%;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+    padding: 20px 0px;
+}
+.movietiming li div {
+    display: inline-block;
+}
+.cinematime {
+    width: 70%;
+}
+a {
+    color: #eee;
+}
+.cinematime span {
+    margin: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    display: inline-block;
+}
+span.moviedates.active {
+    background: rgba(0, 204, 106, 0.5);
+}
+.moviedates {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+@media (min-width: 768px) {
+.offset-md-2 {
+    margin-left: 15.666667%;
+}
+}

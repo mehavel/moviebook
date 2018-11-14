@@ -1,0 +1,14 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300italic,400italic,600italic,400,300,600);
+
+
+// $body-bg:-webkit-linear-gradient(to right, #243B55, #141E30); 
+// $body-bg: linear-gradient(to right, #243B55, #141E30); 
+
+$font-family-sans-serif: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+

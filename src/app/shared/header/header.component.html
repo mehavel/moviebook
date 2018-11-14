@@ -1,0 +1,46 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse borderbg">
+
+  <a class="navbar-brand brandname" [routerLink]="['']">Movie Panda</a>
+  <div>
+
+    <ng-template [ngIf]="loggedIn">
+      <a href="javascript:void(0);" (click)="logoutUser()">
+<!--         <img style="height:20px;border-radius:50px;" src="{{ user.photoUrl}}"> -->
+<!--         <span style="background-image:
+          url('{{ user.photoUrl}}')">{{ user.firstName }}</span> -->
+         <span>{{ userModel.userId }}</span>
+     </a>
+    </ng-template>
+    <ng-template [ngIf]="!loggedIn">
+      <!-- <a href="javascript:void(0);" (click)="openDialog()">Sign-in</a> -->
+      <a class="topmenuitem" (click)="openModal(template)">
+          <span class="topmenutxt">Sign-In</span>
+          <i class="fas fa-sign-in-alt"></i>
+        </a>
+    </ng-template>
+
+    <!-- <a class="topmenuitem" (click)="openModal(template)">
+      <span class="topmenutxt">Sign-In</span>
+      <i class="fas fa-sign-in-alt"></i>
+    </a> -->
+    <ng-template #template>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Login</h4> <h4 class="modal-title">Login</h4>
+          <button type="button" data-dismiss="modal" (click)="modalRef.hide()">
+            <i class="far fa-times-circle"></i>
+          </button>
+        </div>
+        <app-login-modal (event)="hideModal($event)" #child></app-login-modal>
+<!--   <div class="modal-footer">
+          <button type="button" class="btn btn-default" (click)="modalRef.hide()" data-dismiss="modal">Close</button>
+        </div> -->      
+      </div>
+
+
+
+    </ng-template>
+    <app-location></app-location>
+  </div>
+
+</nav>

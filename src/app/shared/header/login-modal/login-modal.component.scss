@@ -1,0 +1,44 @@
+.bg-transparent {
+    background-color: transparent;
+  }
+  
+  :host {
+    height: 100%;
+  }
+  
+  .photo {
+    object-fit: contain;
+  }
+  
+  .card {
+    width: 20rem;
+    margin: 0 auto;
+  }
+
+.margin15{
+  margin:15px;  
+} 
+
+.buttonloader{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255,255,255,0.8);
+    top: 0;
+    left: 0;
+    line-height: 1.5;
+    height: 100%;
+    border-radius: 5px;
+    cursor: wait;
+    display: block;
+}
+
+.has-danger{
+  border:2px solid red;
+  border-radius:7px;
+}
+
+.has-success{
+  border:2px solid green;
+  border-radius:7px;
+}

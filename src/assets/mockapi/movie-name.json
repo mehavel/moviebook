@@ -1,0 +1,40 @@
+{
+"movies" : [
+        {
+            "title": "title1",
+            "author": "author1",
+            "users": [
+                {
+                    "id": 1,
+                    "name": "Isidro"
+                },
+                {
+                    "id": 4,
+                    "name": "Jose Miguel"
+                },
+                {
+                    "id": 3,
+                    "name": "Trinidad"
+                }
+            ]
+        },
+        {
+            "title": "title2",
+            "author": "author2",
+            "users": [
+                {
+                    "id": 4,
+                    "name": "Jose Miguel"
+                },
+                {
+                    "id": 5,
+                    "name": "Beatriz"
+                },
+                {
+                    "id": 6,
+                    "name": "Rosario"
+                }
+            ]
+        }
+      ]
+}

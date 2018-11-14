@@ -1,0 +1,48 @@
+.sidebar_nav {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 47px;
+    text-decoration: none;
+    transition: all .3s;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin: 0;
+    border-color: rgba(0, 0, 0, .06);
+}
+
+.lx-nav {
+    padding-left: 15px;
+}
+
+.lx_icon {
+    padding: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.lx_header_icon {
+    line-height: 47px;
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+    width: 40px;
+}
+
+::ng-deep .mat-expansion-panel-spacing {
+    margin: 0px 0 !important;
+}
+
+::ng-deep .mat-expansion-panel-body {
+    padding: 0 10px 0px !important;
+    background: #f3f3f3;
+    color: #4db7ac;
+}
+
+::ng-deep .mat-expansion-panel-header.mat-expanded {
+    background-color: #4db7ac !important;
+}
+
+a {
+    color: #4db7ac;
+}

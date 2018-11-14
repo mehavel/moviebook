@@ -1,0 +1,83 @@
+{
+  "status": {
+    "status_code": 1003,
+    "status_desc": "Tickets Booked",
+    "transaction_id": "string"
+  },
+  "total_seats_booked": 1,
+  "total_amount": 1.01,
+  "handling_charges": 1.01,
+  "seat_layout": {
+    "seat_classes": [
+      {
+        "seatId": null,
+        "seats": [
+          {
+            "seat": true,
+            "seat_id": 0,
+            "seat_published_id": 1,
+            "coordinate_x": "string",
+            "coordinate_y": "string",
+            "seat_number": "string",
+            "is_seat": true,
+            "booking_status": "BOOKED"
+          }
+        ],
+        "class_published_id": 4,
+        "class_id": 0,
+        "base_fare": 0,
+        "extra_fare": 0,
+        "discount": 0,
+        "fare_id": 0,
+        "fare_details": {
+          "fare_id": null,
+          "fare_name": "dd",
+          "fare_description": "vbcvbc",
+          "base_fare": 20,
+          "extra_fare": 0,
+          "discount_fare": 1,
+          "charge_mapping_id": null,
+          "charges_and_taxes": [
+            {
+              "charge_mapping_id": null,
+              "tax_id": null,
+              "charge_id": null,
+              "charge_name": "bvcb",
+              "charge_description": "fdfg",
+              "charge_amount": 1,
+              "gateway_percentage": 1,
+              "vendor_percentage": 1,
+              "tax_name": null,
+              "tax_description": null,
+              "tax_percentage": 0,
+              "taxes": [
+                {
+                  "tax_id": null,
+                  "tax_name": "fgfdgd",
+                  "tax_description": "gdgd",
+                  "tax_percentage": 1
+                }
+              ]
+            }
+          ],
+          "taxes": [
+            {
+              "tax_id": null,
+              "tax_name": "fgfdgd",
+              "tax_description": "gdgd",
+              "tax_percentage": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+{
+  "status": {
+    "status_code": 1004,
+    "status_desc": "Tickets Not Available",
+    "transaction_id": "string"
+  }
+}

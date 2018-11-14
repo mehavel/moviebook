@@ -1,0 +1,55 @@
+<main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 bgopacity">
+  <div class="row mainrowmargin">
+
+    <div class="row">
+      <span class="moviedates active">
+        <div>22</div>
+        <span>TODAY</span>
+      </span>
+      <span class="moviedates">
+        <div>23</div>
+        <span>TOM</span>
+      </span>
+      <span class="moviedates">
+        <div>24</div>
+        <span>TUE</span>
+      </span>
+      <span class="moviedates">
+        <div>25</div>
+        <span>WED</span>
+      </span>
+      <span class="moviedates">
+        <div>26</div>
+        <span>THU</span>
+      </span>
+      <span class="moviedates">
+        <div>27</div>
+        <span>FRI</span>
+      </span>
+    </div>
+
+
+
+    <div class="row">
+      <ul class="movietiming">
+        <li *ngFor="let movietime of movieTimeModel">
+          <div class="cinema">{{movietime.theatre}}</div>
+          <div class="cinematime">
+            <a href="./seat.html" *ngFor="let movieTimes of movietime.show_time">
+              <span>
+                <i class="fas fa-sun" style="color:orange;height: 6px;overflow: hidden;opacity:0.5"></i> {{movieTimes}}
+              </span>
+            </a>
+            <!--       <span>
+            <i class="fas fa-sun" style="color:orange"></i> 2:30 PM</span>
+          <span>
+            <i class="fas fa-moon"></i> 7:30 PM</span>
+          <span>
+            <i class="fas fa-moon"></i> 10:30 PM</span> -->
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>

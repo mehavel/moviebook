@@ -1,0 +1,43 @@
+<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar navfont navshadow " snScrollSpy >
+  <ul class="nav nav-pills flex-column"  >
+    <li class="nav-item" >
+      <a class="nav-link"   [ngClass]="{'active': status === 'nowshowing'}" snScrollSpyItem (click)="status='nowshowing'"  pageScroll  pageScrollSpeed="4000"  href="#nowshowing">Now Showing
+        <span class="sr-only">(current)</span>
+      </a>
+    </li>
+    <li class="nav-item" >
+      <a class="nav-link "  [ngClass]="{'active': status === 'upcoming'}" snScrollSpyItem (click)="status='upcoming'"   pageScroll  pageScrollSpeed="4000"  href="#upcoming">Up Coming</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Top Rated</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">History</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Subscriptions</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Watch Later</a>
+    </li>
+    <li class="nav-item">
+      <hr style=" background: #fff; margin-right: 10px;margin-left: 10px;">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Recommendation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Top Genere</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Artist of Month</a>
+    </li>
+  </ul>
+
+
+  
+</nav>
+

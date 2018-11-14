@@ -1,0 +1,34 @@
+.navfont {
+    font-size: 12px !important;
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidebar .nav-link {
+    border-radius: 0;
+}
+.nav .active {
+    background-color: rgba(0, 201, 167, 0.1) !important;
+    border-left: 2px solid #00c9a7;
+    text-shadow: 1px 1px 10px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.navshadow {
+    box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.2);
+}
+@media (min-width: 768px)
+{
+    .col-md-2 {
+        max-width: 13.666667%;
+    }
+}

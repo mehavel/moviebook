@@ -1,0 +1,68 @@
+{
+  "movies": [
+    {
+      "movieName": "Airlift",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": true,
+      "language": "English",
+      "image": "airlift"
+    },
+    {
+      "movieName": "Jungle",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": true,
+      "language": "English",
+      "image": "jungle"
+    },
+    {
+      "movieName": "Skull Island",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": true,
+      "language": "English",
+      "image": "skull"
+    },
+    {
+      "movieName": "X-Men Apocalypse",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": false,
+      "language": "English",
+      "image": "xmen"
+    },
+    {
+      "movieName": "Solo",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": false,
+      "language": "English",
+      "image": "solo"
+    },
+    {
+      "movieName": "SkyScraper",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": false,
+      "language": "English",
+      "image": "skyScraper"
+    },
+    {
+      "movieName": "Aaram",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": true,
+      "language": "Tamil",
+      "image": "aram"
+    },
+    {
+      "movieName": "Bairava",
+      "moviegenre": "sciencefiction",
+      "rating" : 6.4,
+      "censorCertificate": true,
+      "language": "Tamil",
+      "image": "bairavaa"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+ul.oe_menu div#filter{
+	width:580px;
+	right:0;
+}
+ul.oe_menu div ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:2px 2px 2px 4px;
+	margin:2px;
+	display:block;
+	font-size:12px;
+}
+ul.oe_menu div ul.oe_full{
+	width:100%;
+}
+ul.oe_menu div ul li a:hover{
+	background:#000;
+	color:#fff;
+}
+ul.oe_menu li ul{
+	list-style:none;
+	float:left;
+	// width: 150px;
+	margin-right:10px;
+}
+li.oe_heading{
+	color:#aaa;
+	font-size:16px;
+	margin-bottom:10px;
+	padding-bottom:6px;
+	border-bottom:1px solid #ddd;
+}
+
+.filter{
+	float:right;
+}
+
+.filter span{
+	margin: 0 2%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    padding: 0 3%;
+	cursor: pointer;
+	font-size:13px;
+}
